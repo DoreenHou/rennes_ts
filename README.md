@@ -22,18 +22,16 @@ Given TSMC’s key role in global technology supply chains and Taiwan’s econom
 5. **Model Evaluation**: Forecast accuracy measured with **RMSE**, **MAE**, and **MAPE** using a hold-out test set of 30 months.
 6. **Selection**: The best-performing model was identified based on lowest RMSE.
 
----
 
-### ✅ Conclusions
+## ✅ Conclusions
 
 - **TSMC’s stock price shows strong long-term growth**, supported by trends in AI and high-performance computing demand.
 - **Prophet had the best RMSE**, while **ARIMA offered the best MAPE**, making both valuable depending on forecasting goals.
 - **Volatility remains a short-term risk**, reinforcing the need for multi-model forecasting and scenario planning.
 - Recommended investment horizon: **medium to long-term (6–24 months)**.
 
----
 
-### 🛠️ Tools and Technologies
+## 🛠️ Tools and Technologies
 
 - **Language**: R
 - **Libraries**: `quantmod`, `forecast`, `prophet`, `tseries`, `Metrics`, `ggplot2`, `lubridate`, `TTR`, `dplyr`, `reshape2`

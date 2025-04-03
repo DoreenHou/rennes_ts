@@ -18,9 +18,10 @@ Given TSMC’s key role in global technology supply chains and Taiwan’s econom
    - **Simple/Weighted Moving Averages (SMA/WMA)**
    - **ARIMA**
    - **Exponential Smoothing (SES, Holt)**
-   - **Facebook Prophet**
+   - **Prophet**
 5. **Model Evaluation**: Forecast accuracy measured with **RMSE**, **MAE**, and **MAPE** using a hold-out test set of 30 months.
-6. **Selection**: The best-performing model was identified based on lowest RMSE.
+6. **Selection**: The best-performing model was identified based on the lowest RMSE.
+7. **Future Forecast**: Trained on the whole data for half a year and visualization.
 
 
 ## ✅ Conclusions

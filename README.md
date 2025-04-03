@@ -21,7 +21,7 @@ Given TSMC’s key role in global technology supply chains and Taiwan’s econom
    - **Prophet**
 5. **Model Evaluation**: Forecast accuracy measured with **RMSE**, **MAE**, and **MAPE** using a hold-out test set of 30 months.
 6. **Selection**: The best-performing model was identified based on the lowest RMSE.
-7. **Future Forecast**: Trained on the whole data for half a year and visualization.
+7. **Future Forecast**: To extend our analysis beyond the testing phase, we retrained all models on the entire 10-year dataset and generated forecasts for the next 24 months (Jan 2025 – Dec 2026).
 
 
 ## ✅ Conclusions
@@ -30,6 +30,11 @@ Given TSMC’s key role in global technology supply chains and Taiwan’s econom
 - **Prophet had the best RMSE**, while **ARIMA offered the best MAPE**, making both valuable depending on forecasting goals.
 - **Volatility remains a short-term risk**, reinforcing the need for multi-model forecasting and scenario planning.
 - Recommended investment horizon: **medium to long-term (6–24 months)**.
+- The resulting forecasts were visualized and compared with actual values, offering a comprehensive view of each model’s forward-looking performance. The visualization highlights:
+   - ARIMA and Prophet both captured the long-term growth trend effectively.
+   - Prophet demonstrated smooth and consistent projections, which are ideal for capturing non-linear trends.
+
+
 
 
 ## 🛠️ Tools and Technologies
